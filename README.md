@@ -42,8 +42,8 @@ x test - train
 
 **Sliding window** es como la anterior pero se corre el punto de inicio. Se usa cuando la info más vieja no es relevante.  
 [--------------- xxxxxxxx]  
-[  --------------- xxxxxx]  
-[    --------------- xxxx]  
+[__--------------- xxxxxx]  (_ es espacio ...)
+[____--------------- xxxx]  
 
 **Precision** Medimos error. Por ejemplo root mean square error. Contra: son valores absolutos
 Posible solucion: error porcentual. Ventaja: no depende de la escala de los valores de lo que analizo.  
