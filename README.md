@@ -28,3 +28,23 @@ Ver slides
 ## Descomposicion
 
 La series se descomponen en Estacionalidad, ciclos, tendencias y error. Los algoritmos pueden separar una línea de tiempo dibujada en otras donde cada una toma una parte.  
+
+
+Case 2
+
+**Autocorrelacion**. La relación entre una variable y sus valores anteriores (lags).  
+
+**Expanding window** es ir cambiando gratualmente training y test (sobre la linea de tiempo)  
+x test - train  
+[--------------- xxxxxxxx]  
+[----------------- xxxxxx]  
+[------------------- xxxx]  
+
+**Sliding window** es como la anterior pero se corre el punto de inicio. Se usa cuando la info más vieja no es relevante.  
+[--------------- xxxxxxxx]  
+[  --------------- xxxxxx]  
+[    --------------- xxxx]  
+
+**Precision** Medimos error. Por ejemplo root mean square error. Contra: son valores absolutos
+Posible solucion: error porcentual. Ventaja: no depende de la escala de los valores de lo que analizo.  
+**Errores escalados** es una opcion interesante.  
