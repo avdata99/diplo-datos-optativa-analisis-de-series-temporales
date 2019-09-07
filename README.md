@@ -52,3 +52,10 @@ x test - train
 **Precision** Medimos error. Por ejemplo root mean square error. Contra: son valores absolutos
 Posible solucion: error porcentual. Ventaja: no depende de la escala de los valores de lo que analizo.  
 **Errores escalados** es una opcion interesante.  
+**Exponential smoothing** Sirve cuando no hay estacionalidad y solo para predecir el siguiente punto de la serie.  
+
+Ver estas cosas andando en este [notebook](https://github.com/gmiretti/Forecasting/blob/master/Tutorial02%20Forecasting.ipynb).  
+
+## Laboratorio / práctico
+
+[acá](practico/README.md)
