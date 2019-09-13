@@ -63,4 +63,6 @@ Ver estas cosas andando en este [notebook](https://github.com/gmiretti/Forecasti
 
 Clase 3, viernes 13.  
 
-Descomponer una serie de tiempo en partes es un muy buen enfoque. El script que libero la oficina de censos de USA lo hace con _ARIMA_ (ver [más](https://www.datascience.com/blog/decomposition-based-approaches-to-time-series-forecasting)).  
+Descomponer una serie de tiempo en partes es un muy buen enfoque. El script que libero la oficina de censos de USA ([X13](https://www.census.gov/srd/www/x13as/)) lo hace con _ARIMA_ (ver [más](https://www.datascience.com/blog/decomposition-based-approaches-to-time-series-forecasting)).  
+
+Seguimos [esta notebook]()http://localhost:8888/notebooks/AnalisisSeriesTemporales/Tutorial03%20Holt%20Winters%20Smoothing.ipynb).  
