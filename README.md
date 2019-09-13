@@ -59,3 +59,8 @@ Ver estas cosas andando en este [notebook](https://github.com/gmiretti/Forecasti
 ## Laboratorio / práctico
 
 [acá](practico/README.md)
+
+
+Clase 3, viernes 13.  
+
+Descomponer una serie de tiempo en partes es un muy buen enfoque. El script que libero la oficina de censos de USA lo hace con _ARIMA_ (ver [más](https://www.datascience.com/blog/decomposition-based-approaches-to-time-series-forecasting)).  
